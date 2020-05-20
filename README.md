@@ -4,6 +4,8 @@ Marquetado utilizando CSS Grid, de una página para vender suscripciones a mis c
 - Marquetado con responsive design
 - Utilizando CSS grid y flexbox
 
+Me tome la libertar de publicar el SASS (Auque no es una buena practica) para que puedan ver como se puede trabajar la modularización.
+
 <h1>Ejemplo del diseño: </h1>
 
 ![Página en desktop](https://i.imgur.com/OIzNHnQ.jpg)
