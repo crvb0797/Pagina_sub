@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light_gray;
+    height: 100vh;
+  }
+
+  .wrap {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 70%;
+    height: 700px;
+    box-shadow: 9px 11px 28px -2px rgba(0, 0, 0, 0.59);
+    border-radius: 20px;
+  }
+
+  .info {
+    padding: 30px;
+    grid-column: 1 / span 6;
+    h1 {
+      font-size: $size_primary * 2.2;
+      margin-bottom: 40px;
+    }
+    h3 {
+      font-size: $size_primary + 15;
+      margin-bottom: 35px;
+    }
+    p {
+      font-size: $size_primary + 11;
+    }
+  }
+
+  .sub {
+    border-bottom-left-radius: 20px;
+    padding: 30px;
+    grid-column: 1;
+    grid-row: 2;
+    h2 {
+      font-size: $size_primary * 2.2;
+      font-size: $size_primary + 15;
+      margin-bottom: 35px;
+    }
+    .price {
+      margin-bottom: 20px;
+      p {
+        font-size: $size_primary * 2.2;
+      }
+      span {
+        font-size: $size_primary + 8;
+      }
+    }
+    p {
+      font-size: $size_primary + 10;
+    }
+    .button {
+      margin-top: 40px;
+      height: 70px;
+      width: 90%;
+    }
+    .btn {
+      font-size: $size_primary + 10;
+    }
+  }
+
+  .questions {
+    border-bottom-right-radius: 20px;
+    /* padding-top: 30px; */
+    /*  padding-left: 100px; */
+    grid-column: 2;
+    grid-row: 2;
+    span {
+      font-size: $size_primary * 2;
+    }
+    ul > li > a {
+      font-size: $size_primary + 5;
+    }
+  }
+}
